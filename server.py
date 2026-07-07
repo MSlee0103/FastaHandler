@@ -372,7 +372,7 @@ def remove_and_subset(
         if not anchor1_fa:
             return {"status": "failed", "message": "Missing required option: 'anchor1_fa'"}
         anchor2_fa = params.get("anchor2_fa")
-        if not anchor1_fa:
+        if not anchor2_fa:
             return {"status": "failed", "message": "Missing required option: 'anchor2_fa'"}
         args.extend(["--input-fa", str(input_files[0].absolute())])
         args.extend(["--anchor1-fa", str(anchor1_fa)])

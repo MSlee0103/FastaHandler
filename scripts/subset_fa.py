@@ -9,6 +9,7 @@ import logging
 import gzip
 import bz2
 import zipfile
+from functools import partial
 from multiprocessing import Pool, cpu_count
 from Bio import SeqIO
 from io import TextIOWrapper

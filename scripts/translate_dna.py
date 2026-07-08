@@ -15,6 +15,7 @@ import gzip
 import bz2
 import tarfile
 import zipfile
+import glob
 from Bio import SeqIO
 from Bio.Seq import Seq
 from multiprocessing import Pool, cpu_count
